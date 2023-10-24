@@ -4,23 +4,16 @@ import os
 from tensorflow.keras.callbacks import EarlyStopping 
 from tensorflow.keras.preprocessing import image_dataset_from_directory 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img 
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.utils import image_dataset_from_directory 
 from tensorflow.keras.optimizers import Adam 
 from tensorflow.keras.layers import Conv2D, MaxPooling2D 
 from tensorflow.keras.layers import Activation, Dropout, Flatten, Dense 
 from tensorflow.keras.models import Sequential 
-from tensorflow import keras 
-from keras import layers 
 from tensorflow.keras.layers.experimental.preprocessing import Rescaling 
-from sklearn.model_selection import train_test_split 
   
 import matplotlib.pyplot as plt 
 import tensorflow as tf 
 import pandas as pd 
-import numpy as np 
-from glob import glob 
-import cv2 
+import numpy as np
   
 import warnings 
 warnings.filterwarnings('ignore') 

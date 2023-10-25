@@ -8,7 +8,8 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.layers import Activation, Dropout, Flatten, Dense 
 from tensorflow.keras.models import Sequential 
 from tensorflow.keras.layers.experimental.preprocessing import Rescaling 
-  
+
+import numpy.core.multiarray  
 import matplotlib.pyplot as plt 
 import tensorflow as tf 
 import pandas as pd 
@@ -92,7 +93,7 @@ plt.legend(['Training Loss', 'Validation Loss'], loc='upper right')
 plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.grid(linestyle = '--', linewidth = 0.5)
-plt.savefig('loss10.png')
+plt.savefig('loss11.png')
 
 # Accuracy 
 plt.figure(1)
@@ -102,4 +103,4 @@ plt.legend(['Training Accuracy', 'Validation Accuracy'], loc='lower right')
 plt.xlabel("Epoch")
 plt.ylabel("Accuracy")
 plt.grid(linestyle = '--', linewidth = 0.5)
-plt.savefig('accuracy10.png')
+plt.savefig('accuracy11.png')

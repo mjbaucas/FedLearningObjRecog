@@ -1,4 +1,3 @@
-import matplotlib.image as mpimg 
 import os 
   
 from tensorflow.keras.callbacks import EarlyStopping 
